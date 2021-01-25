@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   background-color: black;
   padding: 2rem;
@@ -11,7 +12,6 @@ body {
     padding: 2.5rem;
   }
 }
-
 @media screen and (min-width: 1024px) {
   body {
     padding: 3rem;
@@ -34,10 +34,9 @@ body {
 *::-webkit-scrollbar-thumb {
   background: white;
   cursor: auto;
-}
 
-*::-webkit-scrollbar-thumb:hover {
-  background: gray;
-  cursor: pointer !important;
+  &:hover {
+    background: gray;
+    cursor: pointer !important;
+  }
 }
-/*# sourceMappingURL=global.css.map */

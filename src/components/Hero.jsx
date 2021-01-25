@@ -13,7 +13,7 @@ function Hero() {
   ]
 
   return (
-    <div className="relative w-full h-screen">
+    <div id="home" className="relative w-full h-screen">
       <div className="absolute bottom-16 md:bottom-24 lg:bottom-32 flex items-center justify-between max-sm:flex-col w-full">
         <h1 className="typed-text text-3xl max-sm:mb-8 max-sm:text-xl font-mono text-white leading-12">
           Hi, my name is Jonathan.<br></br>I'm

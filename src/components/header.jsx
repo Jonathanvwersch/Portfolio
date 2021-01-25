@@ -12,7 +12,7 @@ const Header = () => {
       </Link>
       <div className="flex">
         <div
-          className="text-white font-mono text-md max-sm:fixed max-sm:top-24 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-300 items-center justify-between filter"
+          className="text-white font-mono text-md max-sm:fixed max-sm:top-24 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-30 0 items-center justify-between filter"
           style={
             open
               ? { opacity: "100", filter: "blur(0px)" }
@@ -22,12 +22,12 @@ const Header = () => {
           <AnchorLink className=" mr-6 hover:text-gray-400" href="#about">
             About
           </AnchorLink>
-          <AnchorLink className="mr-6 hover:text-gray-400" href="#about">
+          <AnchorLink className="mr-6 hover:text-gray-400" href="#projects">
             Projects
           </AnchorLink>
           <AnchorLink
             className="max-sm:mr-0 mr-10 hover:text-gray-400"
-            href="#about"
+            href="#contact"
           >
             Contact
           </AnchorLink>

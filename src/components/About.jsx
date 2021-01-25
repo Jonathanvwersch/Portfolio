@@ -3,7 +3,10 @@ import darkProfile from "../images/profile-pic-dark.png"
 
 function About() {
   return (
-    <div className="font-mono py-12 md:py-16 lg:py-20 text-white w-full relative">
+    <div
+      id="about"
+      className="font-mono py-12 md:py-16 lg:py-20 text-white w-full relative"
+    >
       <h1 className="text-white text-3xl md:text-4xl lg:text-5xl mb-10 md:mb-15 lg:mb-20">
         About me
       </h1>
