@@ -5,13 +5,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Footer() {
   return (
-    <div id="contact" className="w-full relative h-32 pt-32 pb-16">
-      <div className="flex justify-between items-center w-full text-white font-mono">
+    <div id="contact" className="flex w-full relative h-full py-5">
+      <div className="flex max-sm:flex-col-reverse justify-between items-center w-full text-white font-mono">
         <span>© 2021</span>
-        <AnchorLink href="#home">
-          <Logo />
-        </AnchorLink>
-        <div className="flex items-center cursor-pointer">
+        <div className="flex items-center cursor-pointer max-sm:mb-10">
           <a href="https://github.com/Jonathanvwersch">
             <FaGithub className="mr-4 hover:text-gray-400" />
           </a>
@@ -25,6 +22,9 @@ function Footer() {
             <FaEnvelope className="hover:text-gray-400" />
           </a>
         </div>
+        <AnchorLink className="max-sm:mb-10" href="#home">
+          <Logo />
+        </AnchorLink>
       </div>
     </div>
   )
