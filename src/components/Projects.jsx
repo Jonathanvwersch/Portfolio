@@ -69,7 +69,7 @@ const Project4 = {
 
 function Projects() {
   return (
-    <div className="relative h-full w-full mb-40">
+    <div id="projects" className="relative h-full w-full mb-40">
       <h1 className="text-white text-3xl lg:text-4xl mb-10 md:mb-15 lg:mb-20">
         Projects
       </h1>

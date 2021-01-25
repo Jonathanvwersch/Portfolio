@@ -34,11 +34,10 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: "The porfolio of Jonathan van Wersch",
         },
         {
           property: `og:title`,
