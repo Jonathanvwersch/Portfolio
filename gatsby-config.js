@@ -20,7 +20,8 @@ module.exports = {
       options: {
         fonts: [
           `Roboto Mono`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `Roboto`,
+          `source sans pro\:300,400,400i,700`, 
         ],
         display: 'swap'
       }

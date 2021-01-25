@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mono: ["Roboto Mono", "monospace"],
+        sans: ["Roboto"]
       },
       screens: {
         "max-2xl": { max: "1535px" },

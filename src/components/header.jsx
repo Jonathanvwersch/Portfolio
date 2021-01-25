@@ -12,7 +12,7 @@ const Header = () => {
       </Link>
       <div className="flex">
         <div
-          className="text-white font-mono text-md max-sm:fixed max-sm:top-24 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-30 0 items-center justify-between filter"
+          className="text-white bg-black font-mono text-md max-sm:fixed max-sm:top-20 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-30 0 items-center justify-between"
           style={
             open
               ? { opacity: "100", filter: "blur(0px)" }

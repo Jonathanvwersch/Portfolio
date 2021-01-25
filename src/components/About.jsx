@@ -5,9 +5,9 @@ function About() {
   return (
     <div
       id="about"
-      className="font-mono py-12 md:py-16 lg:py-20 text-white w-full relative"
+      className="font-mono pb-32 pt-16 md:pt-20 lg:pt-24 text-white w-full relative"
     >
-      <h1 className="text-white text-3xl md:text-4xl lg:text-5xl mb-10 md:mb-15 lg:mb-20">
+      <h1 className="text-white text-3xl lg:text-4xl mb-10 md:mb-15 lg:mb-20">
         About me
       </h1>
       <div className="w-full flex items-center flex-col lg:flex-row">
@@ -29,6 +29,8 @@ function About() {
           <br></br>Outside of work, I love exercising and staying healthy—I am
           an avid runner and sports player. I also love to read and work on
           side-projects.
+          <br></br>
+          <br></br>
         </p>
       </div>
     </div>

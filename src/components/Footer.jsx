@@ -23,7 +23,7 @@ function Footer() {
           </a>
         </div>
         <AnchorLink className="max-sm:mb-10" href="#home">
-          <Logo />
+          <Logo width={40} height={20} />
         </AnchorLink>
       </div>
     </div>
