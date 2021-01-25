@@ -22,6 +22,12 @@ module.exports = {
         'max-sm': { max: "639px" },
         // => @media (max-width: 639px) { ... }
       },
+      lineHeight: {
+         '12': '3rem',
+      },
+      padding: {
+        'inherit':'inherit'
+      }
     },
   },
   variants: {
