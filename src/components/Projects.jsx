@@ -1,5 +1,5 @@
 import React from "react"
-import Project from "./project"
+import Project from "./Project"
 import Dekked from "../images/dekked"
 import Rocket from "../images/rocket"
 import Logo from "../images/logo"
