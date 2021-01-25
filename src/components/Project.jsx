@@ -27,7 +27,7 @@ function Project({ icon, header, text, backgroundText, roleText, skillsText }) {
             }
           >
             <br></br>
-            <p className="text-center">* * *</p>
+            <p className="text-center text-white">* * *</p>
             <br></br>
             <b>Background</b>:{backgroundText}
             <br></br>

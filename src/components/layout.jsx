@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Header from "./header"
-import Footer from "./Footer"
-import Loading from "./Loading"
+import Footer from "./footer"
+import Loading from "./loading"
 
 const Layout = ({ children }) => {
   const [loading, setLoading] = useState(true)

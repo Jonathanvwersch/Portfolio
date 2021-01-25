@@ -12,17 +12,29 @@ const Header = () => {
       </Link>
       <div className="flex">
         <div
-          className="text-white bg-black font-mono text-md max-sm:fixed max-sm:top-20 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-30 0 items-center justify-between"
+          className="text-white bg-black font-mono text-md max-sm:text-sm max-sm:fixed max-sm:top-20 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-30 0 items-center justify-between"
           style={
             open
               ? { opacity: "100", filter: "blur(0px)" }
               : { opacity: "0", filter: "blur(20px)" }
           }
         >
-          <AnchorLink className=" mr-6 hover:text-gray-400" href="#about">
+          <AnchorLink
+            className=" mr-6 max-sm:mr-3 hover:text-gray-400"
+            href="#about"
+          >
             About
           </AnchorLink>
-          <AnchorLink className="mr-6 hover:text-gray-400" href="#projects">
+          <AnchorLink
+            className=" mr-6 max-sm:mr-3  hover:text-gray-400"
+            href="#skills"
+          >
+            Skills
+          </AnchorLink>
+          <AnchorLink
+            className="mr-6 max-sm:mr-3  hover:text-gray-400"
+            href="#projects"
+          >
             Projects
           </AnchorLink>
           <AnchorLink

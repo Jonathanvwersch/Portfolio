@@ -1,5 +1,5 @@
 import React from "react"
-import Project from "./Project"
+import Project from "./project"
 import Dekked from "../images/dekked"
 import Rocket from "../images/rocket"
 import Logo from "../images/logo"
@@ -10,7 +10,7 @@ const Project1 = {
   header: "Dekked",
   text: "Dekked is an integrated flashcarding and note-taking application.",
   backgroundText: [
-    "I founded Dekked last year alongside three of my friends. We have thus far raised £3250. We are currently building the beta product, with the goal to launch in March. Check out ",
+    " I founded Dekked last year alongside three of my friends. We have thus far raised £3250. We are currently building the beta product, with the goal to launch in March. Check out ",
     <a className="underline" href="https://dekked.com">
       our landing page
     </a>,
@@ -18,7 +18,7 @@ const Project1 = {
   ],
   roleText: "Developer/Designer/Head of Business",
   skillsText:
-    "Figma, React.js, Node.js, Postgres, Gatsby, TailwindCSS, Sass, Express, management, and marketing",
+    "Figma, React.js, Node.js, Postgres, Gatsby, Netlify, AWS, TailwindCSS, Sass, Express, management, marketing",
 }
 
 const Project2 = {
@@ -27,7 +27,7 @@ const Project2 = {
   text:
     "Bath University Rocket (BRT) is an engineering competition that designs and builds sounding rockets",
   backgroundText: [
-    "I was a part of BRT from February 2019 until March 2020. Alongside seven other engineers, I designed a sounding rocket to compete at the Spaceport America Cup, the world's largest intercollegiate rocket competition. We were in the process of building the rocket, in preparation for competing in June of 2020, until the global pandemic put an end to our efforts. ",
+    " I was a part of BRT from February 2019 until March 2020. Alongside seven other engineers, I designed a sounding rocket to compete at the Spaceport America Cup, the world's largest intercollegiate rocket competition. We were in the process of building the rocket, in preparation for competing in June of 2020, until the global pandemic put an end to our efforts. ",
     <a className="underline" href="https://bathrocketteam.com">
       View our website
     </a>,
@@ -43,7 +43,7 @@ const Project3 = {
   header: "Personal Website",
   text: "Portfolio website designed and built by me",
   backgroundText:
-    "I built this website to both showcase some of the projects I've worked on, as well as to further improve my web development skills.",
+    " I built this website to both showcase some of the projects I've worked on, as well as to further improve my web development skills.",
   roleText: "Developer/Designer",
   skillsText: "Gatsby, React, TailwindCSS",
 }
@@ -53,7 +53,7 @@ const Project4 = {
   header: "Soft Magnetic Robotics",
   text: "University Masters Thesis",
   backgroundText: [
-    "My masters thesis was written on the topic of soft magnetic robotics under the supervision of Dr. Hamideh Khanbareh. A PDF version of my thesis can be downloaded ",
+    " My masters thesis was written on the topic of soft magnetic robotics under the supervision of Dr. Hamideh Khanbareh. A PDF version of my thesis can be viewed ",
     <a
       className="underline"
       href="https://drive.google.com/file/d/1l6aOb5Bc8snolIrFlfF3sPpExbmcyv3d/view?usp=sharing"
