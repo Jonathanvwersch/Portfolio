@@ -20,7 +20,7 @@ function Skill({ icon, header, subText, list }) {
               }
         }
       >
-        <p className="text-sm mb-4">{subText}</p>
+        <p className="text-md mb-4">{subText}</p>
         <ul className="text-sm list-none text-gray-400">{list}</ul>
       </div>
       <svg
