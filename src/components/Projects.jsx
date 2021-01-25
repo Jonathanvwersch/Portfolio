@@ -18,7 +18,7 @@ const Project1 = {
   ],
   roleText: "Developer/Designer/Head of Business",
   skillsText:
-    "Figma, React.js, Node.js, Postgres, Gatsby, Netlify, AWS, TailwindCSS, Sass, Express, management, marketing",
+    "Figma, React.js, Node.js, Postgres, Gatsby, Typescript, Netlify, AWS, TailwindCSS, Sass, Express, management, marketing",
 }
 
 const Project2 = {
@@ -45,7 +45,7 @@ const Project3 = {
   backgroundText:
     " I built this website to both showcase some of the projects I've worked on, as well as to further improve my web development skills.",
   roleText: "Developer/Designer",
-  skillsText: "Gatsby, React, TailwindCSS",
+  skillsText: "Gatsby, React, Netlify, TailwindCSS, Javascript",
 }
 
 const Project4 = {
