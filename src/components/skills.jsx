@@ -6,7 +6,7 @@ const Skill1 = {
   icon: [<FaLaptopCode size={32} className="mb-4" />],
   header: "Design/Development",
   subText:
-    "I am an accomplished front-end developer and designer. I am actively working on becoming a full-stack developer.",
+    "I am an accomplished front-end developer and designer. I am actively working on becoming more of a full-stack developer.",
   list: [
     <>
       <li>CSS, TailwindCSS, Sass, HTML5</li>
@@ -24,7 +24,7 @@ const Skill2 = {
   icon: [<FaCode size={32} className="mb-4" />],
   header: "Programming Languages",
   subText:
-    "C++ was and always will be my first love. Nowadays I mainly program in Javascript. I intend on becoming more proficient in Python in the near future.",
+    "C++ was and always will be my first love. Nowadays I mainly program in Javascript. I intend on becoming more proficient in Python in the near future, as well as general data structures and algorithms.",
   list: [
     <>
       <li>C++</li>
@@ -40,7 +40,7 @@ const Skill3 = {
   icon: [<FaEllipsisH size={32} className="mb-4" />],
   header: "Miscellaneous",
   subText:
-    "I am life-long learner who is always focused on developing new skills. Right now I am focused on becoming more entrepreneurial, with the goal of starting my own company in the next five years",
+    "I am a life-long learner who is always looking to develop new skills. Right now I am focused on becoming more entrepreneurial, with the goal of starting my own company in the next five years.",
   list: [
     <>
       <li>Project management</li>

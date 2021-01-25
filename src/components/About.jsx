@@ -23,13 +23,16 @@ function About() {
           gives me the ability to bring my ideas to life. I find it to be a far
           more exciting field than mechanical engineering, which often moves
           more slowly. <br></br>
-          <br></br>I am currently looking for a job within the software
-          development sector. I'm unexperienced—but I have a relentless
-          willingness and desire to learn.<br></br>
+          <br></br>I am currently looking for a job in the software development
+          sector. I'm unexperienced—but I am a quick learner with a relentless
+          willingness and desire to learn and improve.<br></br>
           <br></br>Outside of work, I love exercising and staying healthy—I am
           an avid runner and sports player. I also love to read and work on
-          side-projects.
-          <br></br>
+          side-projects. Speaking of side-projects, have I told you about{" "}
+          <a className="underline" target="_blank" href="https://dekked.com">
+            Dekked
+          </a>
+          ?<br></br>
           <br></br>
         </p>
       </div>
