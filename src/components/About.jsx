@@ -20,8 +20,8 @@ function About() {
           <br></br> In July of last year, I graduated with an integrated masters
           in mechanical engineering from the University of Bath receiving
           first-class honours—my passion, however, lies in software. Programming
-          gives me the ability to bring my ideas into reality. I find it to be a
-          far more exciting field than mechanical engineering, which often moves
+          gives me the ability to bring my ideas to life. I find it to be a far
+          more exciting field than mechanical engineering, which often moves
           more slowly. <br></br>
           <br></br>I am currently looking for a job within the software
           development sector. I'm unexperienced—but I have a relentless

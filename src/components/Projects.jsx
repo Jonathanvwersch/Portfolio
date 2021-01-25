@@ -51,7 +51,8 @@ const Project3 = {
 const Project4 = {
   icon: [<Robot />],
   header: "Soft Magnetic Robotics",
-  text: "University Masters Thesis",
+  text:
+    "My thesis for the completion of an integrated masters in mechanical engineering from the University of Bath",
   backgroundText: [
     " My masters thesis was written on the topic of soft magnetic robotics under the supervision of Dr. Hamideh Khanbareh. A PDF version of my thesis can be viewed ",
     <a
