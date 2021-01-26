@@ -9,7 +9,7 @@ function Skill({ icon, header, subText, list }) {
       onClick={() => setOpen(prevState => !prevState)}
     >
       {icon}
-      <h2 className="text-xl mb-2">{header}</h2>
+      <h2 className="text-xl font-sans mb-2">{header}</h2>
       <div
         style={
           open
