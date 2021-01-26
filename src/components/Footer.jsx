@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div id="contact" className="flex w-full relative h-full py-5">
       <div className="flex max-sm:flex-col-reverse justify-between items-center w-full text-white font-mono">
-        <span>© 2021</span>
+        <span>© {new Date().getFullYear()}</span>
         <div className="flex items-center cursor-pointer max-sm:mb-10">
           <a href="https://github.com/Jonathanvwersch">
             <FaGithub className="mr-4 hover:text-gray-400" />
