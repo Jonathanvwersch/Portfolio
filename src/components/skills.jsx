@@ -56,7 +56,7 @@ const Skill3 = {
 function Skills() {
   return (
     <div id="skills" className="text-white pb-32">
-      <h1 className="text-white text-3xl mb-20">Skills</h1>
+      <h1 className="text-white text-3xl lg:text-4xl mb-20">Skills</h1>
       <div className="flex max-md:items-center max-md:flex-col">
         <Skill
           icon={Skill1.icon}
