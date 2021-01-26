@@ -32,16 +32,7 @@ const Project2 = {
   text:
     "Bath University Rocket (BRT) is an engineering competition that designs and builds sounding rockets",
   backgroundText: [
-    " I was a part of BRT from February 2019 until March 2020. Alongside seven other engineers, I designed a sounding rocket to compete at the Spaceport America Cup, the world's largest intercollegiate rocket competition. We were in the process of building the rocket, in preparation for competing in June of 2020, until the global pandemic put an end to our efforts. ",
-    <a
-      className="underline"
-      target="_blank"
-      rel="noreferrer"
-      href="https://bathrocketteam.com"
-    >
-      View our website
-    </a>,
-    " to check out a 3D model of the rocket we designed. ",
+    " I was a part of BRT from February 2019 until March 2020. Alongside seven other engineers, I designed a sounding rocket to compete at the Spaceport America Cup, the world's largest intercollegiate rocket competition. We were in the process of building the rocket, in preparation for competing in June of 2020, until the global pandemic put an end to our efforts. I would provide a link to our website, but the new team has not done a very good job of maintaining it and it is currently broken.",
   ],
   roleText: "Project Manager/Systems Integrator",
   skillsText:
