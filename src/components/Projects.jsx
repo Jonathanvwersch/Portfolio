@@ -11,7 +11,12 @@ const Project1 = {
   text: "Dekked is an integrated flashcarding and note-taking application.",
   backgroundText: [
     " I founded Dekked last year alongside three of my friends. We have thus far raised £3250. We are currently building the beta product, with the goal to launch in March. Check out ",
-    <a className="underline" target="_blank" href="https://dekked.com">
+    <a
+      className="underline"
+      target="_blank"
+      rel="noreferrer"
+      href="https://dekked.com"
+    >
       our landing page
     </a>,
     " which I designed and built using Figma and Gatsby respectively.",
@@ -28,7 +33,12 @@ const Project2 = {
     "Bath University Rocket (BRT) is an engineering competition that designs and builds sounding rockets",
   backgroundText: [
     " I was a part of BRT from February 2019 until March 2020. Alongside seven other engineers, I designed a sounding rocket to compete at the Spaceport America Cup, the world's largest intercollegiate rocket competition. We were in the process of building the rocket, in preparation for competing in June of 2020, until the global pandemic put an end to our efforts. ",
-    <a className="underline" target="_blank" href="https://bathrocketteam.com">
+    <a
+      className="underline"
+      target="_blank"
+      rel="noreferrer"
+      href="https://bathrocketteam.com"
+    >
       View our website
     </a>,
     " to check out a 3D model of the rocket we designed. ",
@@ -59,6 +69,7 @@ const Project4 = {
       className="underline"
       href="https://drive.google.com/file/d/1l6aOb5Bc8snolIrFlfF3sPpExbmcyv3d/view?usp=sharing"
       target="_blank"
+      rel="noreferrer"
     >
       here
     </a>,

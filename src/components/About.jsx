@@ -29,7 +29,12 @@ function About() {
           <br></br>Outside of work, I love exercising and staying healthy—I am
           an avid runner and sports player. I also love to read and work on
           side-projects. Speaking of side-projects, have I told you about{" "}
-          <a className="underline" target="_blank" href="https://dekked.com">
+          <a
+            className="underline"
+            target="_blank"
+            rel="noreferrer"
+            href="https://dekked.com"
+          >
             Dekked
           </a>
           ?<br></br>
