@@ -4,13 +4,14 @@ import Dekked from "../images/dekked"
 import Rocket from "../images/rocket"
 import Logo from "../images/logo"
 import Robot from "../images/robot"
+import BTK from "../images/BTK"
 
 const Project1 = {
   icon: [<Dekked />],
   header: "Dekked",
   text: "Dekked is an integrated flashcarding and note-taking application.",
   backgroundText: [
-    " I founded Dekked last year alongside three of my friends. We have thus far raised £3250. We are currently building the beta product, with the goal to launch in March. Check out ",
+    "I founded Dekked last year alongside three of my friends. We have thus far raised £3250. We are currently building the beta product, with the goal to launch in March. Check out ",
     <a
       className="underline"
       target="_blank"
@@ -27,6 +28,36 @@ const Project1 = {
 }
 
 const Project2 = {
+  icon: [<BTK />],
+  header: "Beyond the Karman",
+  text: "Beyond the Karman is your home for everything space related.",
+  backgroundText: [
+    "Using ",
+    <a
+      href="https://thespacedevs.com/llapi"
+      className="underline"
+      target="_blank"
+      rel="noreferrer"
+      href="https://dekked.com"
+    >
+      The Space Dev's API
+    </a>,
+    ", I designed and built out a website featuring the latest in space news, launches, and events. Check it out at ",
+    <a
+      className="underline"
+      target="_blank"
+      rel="noreferrer"
+      href="https://dekked.com"
+    >
+      beyondthekarman.com
+    </a>,
+    ". The site is still a bit of a work in progress and although I built it primarily to familiarise myself with APIs, I do intend to keep it up and running and maintained.",
+  ],
+  roleText: "Developer/Designer",
+  skillsText: "Figma, React.js, Gatsby, Netlify, TailwindCSS",
+}
+
+const Project3 = {
   icon: [<Rocket />],
   header: "Bath University Rocket Team",
   text:
@@ -39,23 +70,23 @@ const Project2 = {
     "Autodesk Inventor, finite element modelling, management, rocket design",
 }
 
-const Project3 = {
+const Project4 = {
   icon: [<Logo width={40} height={20} />],
   header: "Personal Website",
   text: "Portfolio website designed and built by me",
   backgroundText:
-    " I built this website to both showcase some of the projects I've worked on, as well as to further improve my web development skills.",
+    "I built this website to both showcase some of the projects I've worked on, as well as to further improve my web development skills.",
   roleText: "Developer/Designer",
   skillsText: "Gatsby, React, Netlify, TailwindCSS, Javascript",
 }
 
-const Project4 = {
+const Project5 = {
   icon: [<Robot />],
   header: "Soft Magnetic Robotics",
   text:
     "My thesis for the completion of an integrated masters in mechanical engineering from the University of Bath",
   backgroundText: [
-    " My masters thesis was written on the topic of soft magnetic robotics under the supervision of Dr. Hamideh Khanbareh. A PDF version of my thesis can be viewed ",
+    "My masters thesis was written on the topic of soft magnetic robotics under the supervision of Dr. Hamideh Khanbareh. A PDF version of my thesis can be viewed ",
     <a
       className="underline"
       href="https://drive.google.com/file/d/1l6aOb5Bc8snolIrFlfF3sPpExbmcyv3d/view?usp=sharing"
@@ -108,6 +139,14 @@ function Projects() {
         backgroundText={Project4.backgroundText}
         roleText={Project4.roleText}
         skillsText={Project4.skillsText}
+      />
+      <Project
+        icon={Project5.icon}
+        header={Project5.header}
+        text={Project5.text}
+        backgroundText={Project5.backgroundText}
+        roleText={Project5.roleText}
+        skillsText={Project5.skillsText}
       />
     </div>
   )
