@@ -38,7 +38,6 @@ const Project2 = {
       className="underline"
       target="_blank"
       rel="noreferrer"
-      href="https://beyondthekarman.com"
     >
       The Space Dev's API
     </a>,
@@ -47,7 +46,7 @@ const Project2 = {
       className="underline"
       target="_blank"
       rel="noreferrer"
-      href="https://dekked.com"
+      href="https://beyondthekarman.com"
     >
       beyondthekarman.com
     </a>,
