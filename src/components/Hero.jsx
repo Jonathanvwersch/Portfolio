@@ -8,7 +8,7 @@ function Hero() {
     " an engineer.",
     " a designer.",
     " an entrepreneur.",
-    " a life-long learner.",
+    " always learning.",
   ]
 
   return (
@@ -34,10 +34,6 @@ function Hero() {
             <Typing.Delay ms={500} />
 
             <span>{titles[3]}</span>
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={titles[3].length} />
-
-            <span>{titles[4]}</span>
             <span className="h-7 w-0.5 bg-white"></span>
           </Typing>
         </h1>
