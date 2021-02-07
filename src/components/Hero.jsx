@@ -9,7 +9,6 @@ function Hero() {
     " a designer.",
     " an entrepreneur.",
     " a life-long learner.",
-    " also unemployed...so let's talk.",
   ]
 
   return (
