@@ -9,20 +9,30 @@ function Footer() {
       <div className="flex max-sm:flex-col-reverse justify-between items-center w-full text-white font-mono">
         <span>© {new Date().getFullYear()}</span>
         <div className="flex items-center cursor-pointer max-sm:mb-10">
-          <a href="https://github.com/Jonathanvwersch">
+          <a href="https://github.com/Jonathanvwersch" aria-label="Github Logo">
             <FaGithub className="mr-4 hover:text-gray-400" />
           </a>
-          <a href="https://www.linkedin.com/in/jonathan-van-wersch/">
+          <a
+            href="https://www.linkedin.com/in/jonathan-van-wersch/"
+            aria-label="LinkedIn Logo"
+          >
             <FaLinkedin className="mr-4 hover:text-gray-400" />
           </a>
-          <a href="https://medium.com/@jonathanvwersch">
+          <a
+            href="https://medium.com/@jonathanvwersch"
+            aria-label="Medium Logo"
+          >
             <FaMedium className="hover:text-gray-400 mr-4" />
           </a>
-          <a href="mailto:jonathanvwersch@gmail.com">
+          <a href="mailto:jonathanvwersch@gmail.com" aria-label="Email">
             <FaEnvelope className="hover:text-gray-400" />
           </a>
         </div>
-        <AnchorLink className="max-sm:mb-10" href="#home">
+        <AnchorLink
+          className="max-sm:mb-10"
+          href="#home"
+          aria-label="Website Logo"
+        >
           <Logo width={40} height={20} />
         </AnchorLink>
       </div>

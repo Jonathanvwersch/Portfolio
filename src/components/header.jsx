@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="w-full fixed z-50 bg-black select-none top-0 left-0 right-0">
       <div className="container-inner items-center justify-between">
-        <Link to="/">
+        <Link to="/" aria-label="Logo">
           <Logo />
         </Link>
         <div className="flex">

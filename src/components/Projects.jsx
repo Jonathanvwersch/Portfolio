@@ -91,6 +91,7 @@ const Project5 = {
       href="https://drive.google.com/file/d/1l6aOb5Bc8snolIrFlfF3sPpExbmcyv3d/view?usp=sharing"
       target="_blank"
       rel="noreferrer"
+      aria-label="Masters thesis download link"
     >
       here
     </a>,

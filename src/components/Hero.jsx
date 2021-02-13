@@ -40,7 +40,7 @@ function Hero() {
             <span className="h-7 w-0.5 bg-white"></span>
           </Typing>
         </h1>
-        <AnchorLink href="#about">
+        <AnchorLink href="#about" aria-label="Down arrow">
           <svg
             width="26"
             height="26"
