@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Jonathan van Wersch | Portfolio`,
+    description: `An overview of who I am and the projects that I've worked on.`,
+    author: `@jonathanvw`,
   },
- 
+
   plugins: [
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -18,13 +18,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Roboto Mono`,
-          `Roboto`,
-          `source sans pro\:300,400,400i,700`, 
-        ],
-        display: 'swap'
-      }
+        fonts: [`Roboto Mono`, `Roboto`, `source sans pro\:300,400,400i,700`],
+        display: "swap",
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -40,5 +36,6 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }

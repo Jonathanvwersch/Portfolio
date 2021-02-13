@@ -5,8 +5,14 @@ function Skill({ icon, header, subText, list }) {
 
   return (
     <div
-      className="flex flex-col text-center text-white items-center w-30 max-sm:w-full max-md:w-1/2 w-2/6 cursor-pointer border border-black  hover:border-white px-6 py-8"
+      className="flex flex-col text-center text-white items-center w-30 max-sm:w-full max-md:mb-16 max-md:w-1/2 w-2/6 cursor-pointer border border-black hover:border-white"
       onClick={() => setOpen(prevState => !prevState)}
+      onKeyDown={e => {
+        if (e.key === "Enter") setOpen(prevState => !prevState)
+      }}
+      role="button"
+      tabIndex="0"
+      aria-label="Open Skills"
     >
       {icon}
       <h2 className="text-xl font-sans mb-2">{header}</h2>

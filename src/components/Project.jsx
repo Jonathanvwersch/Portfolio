@@ -6,6 +6,12 @@ function Project({ icon, header, text, backgroundText, roleText, skillsText }) {
     <div
       className="cursor-pointer w-full flex flex-col border border-black  hover:border-white px-6 py-8"
       onClick={() => setOpen(prevState => !prevState)}
+      onKeyDown={e => {
+        if (e.key === "Enter") setOpen(prevState => !prevState)
+      }}
+      role="button"
+      tabIndex="0"
+      aria-label="Open Project"
     >
       <div className="flex items-center flex-col w-full">
         <div className="flex justify-between w-full mb-6">

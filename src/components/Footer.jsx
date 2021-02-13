@@ -5,7 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Footer() {
   return (
-    <div id="contact" className="flex w-full relative h-full py-5">
+    <div id="contact" className="flex container-inner relative h-full py-5">
       <div className="flex max-sm:flex-col-reverse justify-between items-center w-full text-white font-mono">
         <span>© {new Date().getFullYear()}</span>
         <div className="flex items-center cursor-pointer max-sm:mb-10">

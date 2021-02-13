@@ -5,13 +5,17 @@ function About() {
   return (
     <div
       id="about"
-      className="font-mono pb-32 pt-16 md:pt-20 lg:pt-24 text-white w-full relative"
+      className="container-inner flex-col font-mono text-white relative mb-32"
     >
       <h1 className="text-white text-3xl lg:text-4xl mb-10 md:mb-15 lg:mb-20">
         About me
       </h1>
       <div className="w-full flex items-center flex-col lg:flex-row">
-        <img className="h-60 lg:mr-20 mb-10 lg:mb-0" src={darkProfile}></img>
+        <img
+          className="h-60 lg:mr-20 mb-10 lg:mb-0"
+          src={darkProfile}
+          alt="Me"
+        ></img>
         <p>
           I come from a mixed background—I was born in the United States but my
           father is from the Netherlands and my mother is from Egypt. Growing up
