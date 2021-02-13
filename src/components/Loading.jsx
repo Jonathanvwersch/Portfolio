@@ -3,7 +3,7 @@ import Typing from "react-typing-animation"
 
 function Loading() {
   return (
-    <div className="h-screen w-screen absolute left-0 top-0 flex items-center justify-center">
+    <div className="right-0 bottom-0 absolute left-0 top-0 flex items-center justify-center">
       <h1 className="text-white text-3xl font-mono">
         Loading
         <Typing loop={true} className="inline" speed={100}>
