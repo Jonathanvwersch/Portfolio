@@ -6,13 +6,13 @@ import { Link } from "gatsby"
 const Header = () => {
   const [open, setOpen] = useState(false)
   return (
-    <div className="w-full fixed z-50 bg-black select-none top-0 left-0 right-0">
+    <header className="w-full fixed z-50 bg-black select-none top-0 left-0 right-0">
       <div className="container-inner items-center justify-between">
         <Link to="/" aria-label="Logo">
           <Logo />
         </Link>
         <div className="flex">
-          <div
+          <nav
             className="text-white bg-black font-mono text-md max-sm:text-sm max-sm:fixed max-sm:pb-4 max-sm:top-20 max-sm:justify-center max-sm:w-full max-sm:left-0  flex transition-all duration-100 items-center justify-between"
             style={
               open
@@ -44,7 +44,7 @@ const Header = () => {
             >
               Contact
             </AnchorLink>
-          </div>
+          </nav>
           <div
             className="group flex flex-col h-10 w-10 justify-center items-end"
             onClick={() => setOpen(prevState => !prevState)}
@@ -66,7 +66,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   )
 }
 

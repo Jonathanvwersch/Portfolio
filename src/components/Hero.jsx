@@ -12,7 +12,7 @@ function Hero() {
   ]
 
   return (
-    <div
+    <section
       id="home"
       className="h-screen container-inner flex-col justify-end mb-32"
     >
@@ -55,7 +55,7 @@ function Hero() {
           </svg>
         </AnchorLink>
       </div>
-    </div>
+    </section>
   )
 }
 
