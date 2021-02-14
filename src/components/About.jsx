@@ -3,7 +3,7 @@ import darkProfile from "../images/profile-pic-dark.png"
 
 function About() {
   return (
-    <div
+    <section
       id="about"
       className="container-inner flex-col font-mono text-white relative mb-32"
     >
@@ -27,11 +27,13 @@ function About() {
           gives me the ability to bring my ideas to life. I find it to be a far
           more exciting field than mechanical engineering, which often moves
           more slowly. <br></br>
-          <br></br>I am currently working as a front-end web developer at Acre
-          Software, working on transforming the way you buy property.<br></br>
+          <br></br>I am currently working as a graduate software engineer at
+          Acre Software, working on transforming the way you buy property.
+          <br></br>
           <br></br>Outside of work, I love exercising and staying healthy—I am
-          an avid runner and sports player. I also love to read and work on
-          side-projects. Speaking of side-projects, have I told you about
+          an avid runner and sports player. I also love to read and work on my
+          own engineering projects. I am currently building an integrated
+          flashcarding and note-taking web application called{" "}
           <a
             className="underline"
             target="_blank"
@@ -40,11 +42,12 @@ function About() {
           >
             Dekked
           </a>
-          ?<br></br>
+          , which I aim to grow into an EdTech platform akin to Udemy or
+          Skillshare but for spaced-repetition-based content.<br></br>
           <br></br>
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 
