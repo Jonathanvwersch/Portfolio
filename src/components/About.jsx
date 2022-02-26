@@ -17,34 +17,23 @@ function About() {
           alt="Me"
         ></img>
         <p>
-          I come from a mixed background—I was born in the United States but my
-          father is from the Netherlands and my mother is from Egypt. Growing up
-          I moved around a lot, living in five different countries by the time I
-          finished school. <br></br>
-          <br></br> In July of last year, I graduated with an integrated masters
-          in mechanical engineering from the University of Bath receiving
-          first-class honours—my passion, however, lies in software. Programming
-          gives me the ability to bring my ideas to life. I find it to be a far
-          more exciting field than mechanical engineering, which often moves
-          more slowly. <br></br>
-          <br></br>I am currently working as a graduate software engineer at
-          Acre Software, working on transforming the way you buy property.
+          I come from a mixed background —— I was born in the United States but
+          my father is from the Netherlands and my mother is from Egypt. Growing
+          up I moved around a lot, living in five different countries by the
+          time I finished school. <br></br>
+          <br></br> In July of 2020, I graduated with an integrated masters in
+          mechanical engineering from the University of Bath receiving
+          first-class honours —— my passion, however, lies in software.
+          Programming gives me the ability to bring my ideas to life. I find it
+          to be a far more exciting field than mechanical engineering, which
+          often moves more slowly. <br></br>
+          <br></br>I am currently working as a software engineer at{" "}
+          <a href="https://www.acresoftware.com/">Acre Software</a>, an
+          all-in-one mortgage platform for brokers and customers.
           <br></br>
-          <br></br>Outside of work, I love exercising and staying healthy—I am
-          an avid runner and sports player. I also love to read and work on my
-          own engineering projects. I am currently building an integrated
-          flashcarding and note-taking web application called{" "}
-          <a
-            className="underline"
-            target="_blank"
-            rel="noreferrer"
-            href="https://dekked.com"
-          >
-            Dekked
-          </a>
-          , which I aim to grow into an EdTech platform akin to Udemy or
-          Skillshare but for spaced-repetition-based content.<br></br>
-          <br></br>
+          <br></br>Outside of work, I love exercising and staying healthy —— I
+          am an avid runner and sports player. I also love to read, and work on
+          engineering-related side projects.
         </p>
       </div>
     </section>

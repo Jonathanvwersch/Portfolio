@@ -2,80 +2,68 @@ import React from "react"
 import Skill from "./skill"
 import { FaLaptopCode, FaCode, FaEllipsisH } from "react-icons/fa"
 
-const Skill1 = {
-  icon: [<FaLaptopCode size={32} className="mb-4" />],
-  header: "Design/Development",
-  subText:
-    "I am an accomplished front-end developer and designer. I am actively working on becoming more of a full-stack developer.",
-  list: [
-    <>
-      <li>CSS, TailwindCSS, Sass, HTML5</li>
-      <li>Figma, Autodesk Inventor</li>
-      <li>Javascript (ES6), Typescript</li>
-      <li>React, Gatsby</li>
-      <li>Node, Express, Postgres</li>
-      <li>Netlify, AWS</li>
-      <li>MailChimp</li>
-    </>,
-  ],
-}
-
-const Skill2 = {
-  icon: [<FaCode size={32} className="mb-4" />],
-  header: "Programming Languages",
-  subText:
-    "C++ was and always will be my first love. Nowadays I mainly program in Javascript. I intend on becoming more proficient in Python in the near future, as well as general data structures and algorithms.",
-  list: [
-    <>
-      <li>C++</li>
-      <li>Javascript/Typescript</li>
-      <li>SQL</li>
-      <li>MATLAB</li>
-      <li>Git (version-control)</li>
-    </>,
-  ],
-}
-
-const Skill3 = {
-  icon: [<FaEllipsisH size={32} className="mb-4" />],
-  header: "Miscellaneous",
-  subText:
-    "I am a life-long learner who is always looking to develop new skills. Right now I am focused on becoming more entrepreneurial, with the goal of starting my own company in the next five years.",
-  list: [
-    <>
-      <li>Project management</li>
-      <li>Public speaking</li>
-      <li>English (native)</li>
-      <li>French (intermediate)</li>
-      <li>Dutch (proficient)</li>
-      <li>Entrepreneurship</li>
-    </>,
-  ],
-}
+const displaySkills = [
+  {
+    icon: [<FaLaptopCode size={32} className="mb-4" />],
+    header: "Web Technologies/Software",
+    subText:
+      "I am an highly skilled front-end developer. Additionally, I am proficient in web design and backend engineering.",
+    list: [
+      <>
+        <li>Figma</li>
+        <li>React, Gatsby</li>
+        <li>REST, GraphQL, Apollo</li>
+        <li>React Testing Library, Enzyme, Jest, Cypress</li>
+        <li>Node, Express, Postgres</li>
+        <li>Netlify, Render</li>
+      </>,
+    ],
+  },
+  {
+    icon: [<FaCode size={32} className="mb-4" />],
+    header: "Programming Languages",
+    subText:
+      "I mainly program in Typescript/Javascript. I am proficient in Python with regards to data structures and algorithms but I have never used it in a professional environment.",
+    list: [
+      <>
+        <li>Javascript/Typescript</li>
+        <li>Python</li>
+        <li>Git (version-control)</li>
+      </>,
+    ],
+  },
+  {
+    icon: [<FaEllipsisH size={32} className="mb-4" />],
+    header: "Miscellaneous",
+    subText:
+      "I am a life-long learner who is always looking to develop new skills. In addition to be a strong technical software engineer, I also possess a wide range of soft skills relating to communication and collaboration.",
+    list: [
+      <>
+        <li>Project management</li>
+        <li>Public speaking</li>
+        <li>English (native)</li>
+        <li>French (intermediate)</li>
+        <li>Dutch (proficient)</li>
+        <li>Entrepreneurship</li>
+      </>,
+    ],
+  },
+]
 
 function Skills() {
   return (
     <section id="skills" className="flex-col text-white mb-32 container-inner">
       <h1 className="text-white text-3xl lg:text-4xl mb-20">Skills</h1>
-      <div className="flex max-md:items-center max-md:flex-col">
-        <Skill
-          icon={Skill1.icon}
-          header={Skill1.header}
-          subText={Skill1.subText}
-          list={Skill1.list}
-        />
-        <Skill
-          icon={Skill2.icon}
-          header={Skill2.header}
-          subText={Skill2.subText}
-          list={Skill2.list}
-        />
-        <Skill
-          icon={Skill3.icon}
-          header={Skill3.header}
-          subText={Skill3.subText}
-          list={Skill3.list}
-        />
+      <div className="flex max-md:items-center max-md:flex-col gap-x-4">
+        {displaySkills.map(skill => (
+          <Skill
+            key={skill.header}
+            icon={skill.icon}
+            header={skill.header}
+            subText={skill.subText}
+            list={skill.list}
+          />
+        ))}
       </div>
     </section>
   )

@@ -4,12 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 import "../styles/Hero.css"
 
 function Hero() {
-  const titles = [
-    " an engineer.",
-    " a designer.",
-    " an entrepreneur.",
-    " always learning.",
-  ]
+  const titles = [" an engineer.", " a designer.", " always learning."]
 
   return (
     <section
